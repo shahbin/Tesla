@@ -1,0 +1,395 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.header {
+  position:absolute;
+  font-family: roboto,arial;
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leftsection{
+ background-color:transparent;
+  display:flex; 
+  width:100px;
+  align-items: center;
+}
+.tesla-icon{
+  filter: brightness(0) invert(1);
+  margin-left: 50px;
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.middlesection{
+  display: flex;
+  align-items: center;
+  width: 500px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.Vehicles-button,
+.Energy-button,
+.Charging-button,
+.Discover-button,
+.Shop-button{
+  width:100%;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.rightsection{
+  background-color: transparent;
+  display: flex;
+  width:100px;
+  margin-right: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightsection img {
+width: 22px;
+filter: brightness(0) invert(1);
+}
+
+.all-images{
+width:100%;
+}
+
+.all-images img {
+width: 100%;
+margin-top: -100px;
+}
+.img1-text{
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:80px;
+left:680px;
+font-size: 60px;
+}
+.line-text{
+margin-top: 40px;
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:150px;
+left:640px;
+font-size: 30px;
+width: 380px;
+text-decoration-line: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 7px;
+}
+.rate-text{
+margin-top: 30px;
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:200px;
+left:725px;
+
+}
+.buttons{
+position: absolute;
+bottom:80px;
+transform: translate(50% ,50%);
+width:100%;
+display: flex;
+position: absolute;
+margin-left: -300px;
+gap:20px;
+
+}
+.b-1{
+height: 48px;
+width: 300px;
+font-size: 15px;
+border: none;
+border-radius: 4px;
+background-color: rgb(49, 108, 219);
+color: white;
+
+}
+.b-2{
+height: 48px;
+width: 300px;
+font-size: 15px;
+border: none;
+border-radius: 4px;
+color: rgba(47, 47, 52, 0.833);
+}
+
+.image-2,
+.image-3,
+.image-4,
+.image-5,
+.image-6,
+.image-7,
+.image-8,
+.image-9 {
+position: relative;
+}
+.image-2{
+margin-top: 1px;
+}
+.image-3{
+margin-top: 70px;
+}
+.rate3-text{
+margin-top: 30px;
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:160px;
+left:700px;
+font-size: 28px;
+}
+.line3-text{
+margin-top: 50px;
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:180px;
+left:660px;
+font-size: 18px;
+width: 280px;
+text-decoration-line: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 7px;
+}
+.line3-1-text{
+margin-top: 50px;
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:210px;
+left:670px;
+font-size: 18px;
+width: 280px;
+text-decoration-line: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 7px;
+}
+.txt3-div{
+display: flex;
+position: absolute;
+top:-100px;
+width:100%;
+left:-20px
+}
+
+.image-4{
+ margin-top: 70px;
+}
+.txt4-div{
+display: flex;
+position: absolute;
+top:-60px;
+width:100%;
+left:-20px;
+}
+.image-5{
+margin-top: 70px;
+}
+.cyber-icon{
+position: absolute;
+top:41px;
+left:495px;
+width:520px;
+filter: invert(100%);
+}
+.series-icon{
+position: absolute;
+top:194px;
+left:638px;
+filter:invert(100%);
+mix-blend-mode:color-dodge;
+width: 240px;
+background-image: none;
+}
+
+.img5-b-1{
+height: 48px;
+width: 300px;
+font-size: 15px;
+border:none ;
+background-color: rgb(33, 32, 32);
+color: grey;
+
+}
+.img5-b-2{
+height: 48px;
+width: 300px;
+font-size: 15px;
+border-color: rgb(74, 73, 73);
+border: solid;
+border-width: 1px;
+background-color: rgb(33, 32, 32);
+color: grey;
+} 
+.image-6{
+margin-top: 70px;
+}
+.txt6-div{
+display: flex;
+position: absolute;
+top:-35px;
+width:100%;
+left:-70px;
+}
+.img6-text{
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:90px;
+left:680px;
+font-size: 54px;
+}
+.line6-text{
+margin-top: 50px;
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:140px;
+left:630px;
+font-size: 28px;
+width: 430px;
+text-decoration-line: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 7px;
+}
+.image-7{
+margin-top: 70px;
+margin-bottom: 70px;
+}
+.txt7-div{
+display: flex;
+position: absolute;
+top:-35px;
+width:100%;
+left:-70px;
+}
+.img7-text{
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:60px;
+left:680px;
+font-size: 54px;
+}
+.line7-text{
+margin-top: 50px;
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:110px;
+left:560px;
+font-size: 28px;
+width: 555px;
+
+}
+.img8-text{
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:30px;
+left:630px;
+font-size: 54px;
+}
+.image-9{
+margin-top: 70px;
+}
+.img9-text{
+position: absolute;
+font-family: roboto,arial;
+color: white;
+font-weight: 700;
+top:35px;
+left:605px;
+font-size: 50px;
+}
+.button-9{
+position: absolute;
+transform: translate(50% ,50%);
+width:100%;
+display: flex;
+position: absolute;
+left:-131px;
+top:610px;
+}
+.img9-b{
+height: 38px;
+width: 265px;
+font-size: 15px;
+border: none;
+border-radius: 4px;
+background-color: rgb(49, 108, 219);
+color: white;
+}
+footer{
+background-color: black;
+position: absolute;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:100%;
+font-family: roboto,arial;
+font-size: 12px;
+margin-top: -100px;
+padding-top: 30px;
+
+}
+.p1,
+.p2,
+.p3,
+.p4{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 610px;
+text-align: center;
+line-height: 20px;
+margin-bottom: -10px;
+font-weight: bold;
+}
+
+.end-links{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 530px;
+margin-top: 50px;
+margin-bottom: 20px;
+font-weight: bold;
+}
+.u1,
+.u2,
+.u3,
+.u4{
+text-decoration-line: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 3px;
+}
